@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.diceRollConrainer{
+    margin-top: 50px;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.diceRollConrainer h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.img-dice{
+    width: 50px;
+    height: 50px;
+   
+}
+
+.rollDiceButton{
+    border: none;
+    background-color: green;
+    color: white;
+    width: 130px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    width: 300px;
+    margin: 5px;
+   
+}
+
+li{
+    font-size: 18px;
+    padding: 10px;
+    height: 40px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.rolldices img{
+    width: 45px;
+}
